@@ -41,13 +41,6 @@ header img {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--accent);
-    text-decoration: none;
-}
-
 .nav-menu {
     display: flex;
     gap: 25px;

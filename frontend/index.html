@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lumer - Онлайн-школа фотографии</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="header-container">
+            <img src="img/icons/main_logo1.png" alt="Lumer">
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="nav-menu">
+                <div class="nav-item">
+                    Все курсы <i class="fas fa-chevron-down"></i>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">Основы фотографии</a>
+                        <a href="#" class="dropdown-item">Портретная съемка</a>
+                        <a href="#" class="dropdown-item">Пейзажная фотография</a>
+                        <a href="#" class="dropdown-item">Студийная съемка</a>
+                        <a href="#" class="dropdown-item">Обработка в Lightroom</a>
+                    </div>
+                </div>
+                
+                <div class="nav-item">
+                    Мои курсы <i class="fas fa-chevron-down"></i>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">В процессе обучения</a>
+                        <a href="#" class="dropdown-item">Завершенные курсы</a>
+                        <a href="#" class="dropdown-item">Сертификаты</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="search-container">
+                <input type="text" placeholder="Поиск курсов, уроков...">
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            
+            <button class="login-btn">Войти</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="welcome-message">
+                <h1>Искусство фотографии в деталях</h1>
+                <p>Присоединяйтесь к Lumer и откройте для себя мир профессиональной фотографии. Наши курсы разработаны практикующими фотографами для тех, кто хочет освоить искусство визуального повествования.</p>
+                <a href="#" class="cta-button">Начать обучение</a>
+            </div>
+        </section>
+        
+        <section class="video-section">
+            <div class="video-container">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="video-info">
+                    <h2>Приветственное видео от основателей Lumer</h2>
+                    <p>Узнайте о нашей философии обучения и подхода к преподаванию искусства фотографии</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О Lumer</h3>
+                <p>Lumer - это онлайн-платформа для обучения искусству фотографии. Мы предлагаем курсы для всех уровней подготовки, от начинающих до профессиональных фотографов.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> info@lumer.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, ул. Фотографическая, 15</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Следите за нами</h3>
+                <p>Подписывайтесь на наши социальные сети, чтобы быть в курсе новых курсов и акций:</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Lumer - Онлайн-школа фотографии. Все права защищены.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
